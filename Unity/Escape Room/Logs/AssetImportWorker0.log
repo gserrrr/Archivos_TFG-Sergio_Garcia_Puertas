@@ -1,0 +1,344 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1052; Version 2004; 64bit' Language: 'es' Physical Memory: 16340 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gserg/OneDrive/Escritorio/TFG/Escape Room
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53771
+Successfully changed project path to: C:/Users/gserg/OneDrive/Escritorio/TFG/Escape Room
+C:/Users/gserg/OneDrive/Escritorio/TFG/Escape Room
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.38 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 2.25 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gserg/OneDrive/Escritorio/TFG/Escape Room/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1e89)
+    Vendor:   
+    VRAM:     5967 MB
+    Driver:   27.21.14.6647
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001964 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.59 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.80 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\gserg\OneDrive\Escritorio\TFG\Escape Room\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\gserg\OneDrive\Escritorio\TFG\Escape Room\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 3833 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.9 MB.
+System memory in use after: 174.1 MB.
+
+Unloading 131 unused Assets to reduce memory usage. Loaded Objects now: 4281.
+Total: 2.795000 ms (FindLiveObjects: 0.453600 ms CreateObjectMapping: 0.207000 ms MarkObjects: 1.973100 ms  DeleteObjects: 0.160800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(defcbab90864f2b49b50a09398571739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(defcbab90864f2b49b50a09398571739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d27e761930300726ad16699159f73ee') in 0.032735 seconds
+  Import took 0.037412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(d4ccb3e598b52654eac625cd8f7b4607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(d4ccb3e598b52654eac625cd8f7b4607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fec99f090c3f90aaa242516bdd24770') in 0.006243 seconds
+  Import took 0.012688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 197.740671 seconds.
+  path: Assets/Objetos/Armario bueno.prefab
+  artifactKey: Guid(6083b4bbea36cb44384be7d18486e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Armario bueno.prefab using Guid(6083b4bbea36cb44384be7d18486e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf049f1d07ec17795e2cfdf60019bef') in 0.082865 seconds
+  Import took 0.088418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Objetos/LamparaRompible.prefab
+  artifactKey: Guid(0973733b68191b74c9a633c2c0efe890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/LamparaRompible.prefab using Guid(0973733b68191b74c9a633c2c0efe890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af98d09ee3a485d8d06d0598ae171755') in 0.211992 seconds
+  Import took 0.217013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Objetos/LámparaNOrompible.prefab
+  artifactKey: Guid(a345708cd450b1c42b8ef7c71daf1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/LámparaNOrompible.prefab using Guid(a345708cd450b1c42b8ef7c71daf1571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1c1e3670c580cdd83c1f353e2b947') in 0.043600 seconds
+  Import took 0.048519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Objetos/Paredes solo.prefab
+  artifactKey: Guid(1b24236e695906b46b41c8baff83f417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Paredes solo.prefab using Guid(1b24236e695906b46b41c8baff83f417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4927ba453e5f94941488073ad15a02') in 0.006588 seconds
+  Import took 0.012495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Objetos/Jugador.prefab
+  artifactKey: Guid(609c0b2a986a47348aae1a506400e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Jugador.prefab using Guid(609c0b2a986a47348aae1a506400e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ecaac1d7a45137b87278c915c3ddc') in 0.029051 seconds
+  Import took 0.033971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Objetos/PC.prefab
+  artifactKey: Guid(8a7d17f4e13f29846a50e883fa8582d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/PC.prefab using Guid(8a7d17f4e13f29846a50e883fa8582d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ad4e706094a5a7de2a0ce934d96075') in 0.017241 seconds
+  Import took 0.022039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Objetos/FINALojo.prefab
+  artifactKey: Guid(dd538a9931931f340ab656eb818f4e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/FINALojo.prefab using Guid(dd538a9931931f340ab656eb818f4e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1ad5f54c7d638fda3872ee08c8d9a6') in 0.007136 seconds
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Objetos/Mesalaboratorio.prefab
+  artifactKey: Guid(9338f6108f55578489dcc4e293e86d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Mesalaboratorio.prefab using Guid(9338f6108f55578489dcc4e293e86d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17e418aebac818ed6e1d704439c106') in 0.007693 seconds
+  Import took 0.012993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Objetos/Tiempo.prefab
+  artifactKey: Guid(21846bf39678de543b3ca129a68dce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Tiempo.prefab using Guid(21846bf39678de543b3ca129a68dce1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1b959d361f2a69e92c07744e4de292') in 0.007128 seconds
+  Import took 0.012919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Objetos/FINALparpado.prefab
+  artifactKey: Guid(a877b14517f9d6f48af95c4386ca80ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/FINALparpado.prefab using Guid(a877b14517f9d6f48af95c4386ca80ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c956868383fbfc58a11a46981fc93') in 0.007141 seconds
+  Import took 0.013597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Objetos/Keypad lock.prefab
+  artifactKey: Guid(5fa479e25442959428843d0f2ab6f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Keypad lock.prefab using Guid(5fa479e25442959428843d0f2ab6f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d9e032b14304743ce62bc5ca9b104b') in 0.027757 seconds
+  Import took 0.034222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Objetos/Jaula.prefab
+  artifactKey: Guid(4b693ff5caa972a4b8e2526d88fceb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Jaula.prefab using Guid(4b693ff5caa972a4b8e2526d88fceb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b65fb705441f4fb51e0a6a69ffaf8b7') in 0.021977 seconds
+  Import took 0.028268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Objetos/Basura.prefab
+  artifactKey: Guid(7c90fcc866db4064aad714f3e843278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Basura.prefab using Guid(7c90fcc866db4064aad714f3e843278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bb121d2cd59b82f845329416314f16') in 0.042752 seconds
+  Import took 0.049419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Objetos/Paredes puertas.prefab
+  artifactKey: Guid(4540dff6d9736eb4bb8a5523ae7df207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Paredes puertas.prefab using Guid(4540dff6d9736eb4bb8a5523ae7df207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943c3fd92407a0293d551b91ce939f41') in 0.008414 seconds
+  Import took 0.013959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Objetos/Taburete.prefab
+  artifactKey: Guid(93316dc1c5bf86441a7267ac635f37cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Taburete.prefab using Guid(93316dc1c5bf86441a7267ac635f37cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f7c1bb6e400e5a15320c3286973ae4') in 0.008648 seconds
+  Import took 0.014534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Objetos/XR Rig nuevo.prefab
+  artifactKey: Guid(4ced157c87ead5941b7a9990f716b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/XR Rig nuevo.prefab using Guid(4ced157c87ead5941b7a9990f716b69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1436db67a0c616e797f90e53e522a1c') in 0.128668 seconds
+  Import took 0.134784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Objetos/FINALtriangulo.prefab
+  artifactKey: Guid(805fb241e5659354e8dcf2f58b2743cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/FINALtriangulo.prefab using Guid(805fb241e5659354e8dcf2f58b2743cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b6edadb793917e817acd8ed801e336') in 0.008280 seconds
+  Import took 0.015122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Objetos/Pendrive.prefab
+  artifactKey: Guid(7741c03cae9f1794099eb39992c5392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Pendrive.prefab using Guid(7741c03cae9f1794099eb39992c5392c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c84303063723426650d6483f4b08856') in 0.009701 seconds
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Objetos/Puntero pizarra.prefab
+  artifactKey: Guid(bc56035db38849b44b3b29f16c9d6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Puntero pizarra.prefab using Guid(bc56035db38849b44b3b29f16c9d6c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8891fecb3d3480cf15afa7a21c8a7b68') in 0.009744 seconds
+  Import took 0.016804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Objetos/Puerta.prefab
+  artifactKey: Guid(f4ec42668c08ba34985ca05cd526da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Puerta.prefab using Guid(f4ec42668c08ba34985ca05cd526da80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a489751516c7ce2fb978ad0e637f4696') in 0.007709 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Objetos/GestorTiempos.prefab
+  artifactKey: Guid(9ce7cf59ef1619a43bcc846cd3a56550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/GestorTiempos.prefab using Guid(9ce7cf59ef1619a43bcc846cd3a56550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b203e3a6eb3e0840ac2a551606a122') in 0.007881 seconds
+  Import took 0.013636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Objetos/Mesa.prefab
+  artifactKey: Guid(827919427af77ac44a0cfb920fa4d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Mesa.prefab using Guid(827919427af77ac44a0cfb920fa4d85a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56b558c2ca4eaede68bf3628671cc13') in 0.007785 seconds
+  Import took 0.013482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Objetos/Monitor.prefab
+  artifactKey: Guid(eb132794a33e99e489c0db9b5d8b2d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Monitor.prefab using Guid(eb132794a33e99e489c0db9b5d8b2d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa464c95d81619b9943a4ba9423b611') in 0.024132 seconds
+  Import took 0.029369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Objetos/Armario.prefab
+  artifactKey: Guid(5f707e62ee93ac049af77c03196f58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Armario.prefab using Guid(5f707e62ee93ac049af77c03196f58fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56c966fe5a8ddb800bad86eff49c541') in 0.028167 seconds
+  Import took 0.034058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Objetos/Mano impostor.prefab
+  artifactKey: Guid(1ade8b46f3c332148945ac31fa38c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objetos/Mano impostor.prefab using Guid(1ade8b46f3c332148945ac31fa38c96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb4711418bd93896a280b72c91dd5a7') in 0.012454 seconds
+  Import took 0.017521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.474076 seconds.
+  path: Assets/Scenes/Robar el alien.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Robar el alien.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24699770c59c25d2815c16baa761930') in 0.006453 seconds
+  Import took 0.011795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.273639 seconds.
+  path: Assets/Scenes/Iniciar Sesión.unity
+  artifactKey: Guid(4f7d43111222af2419fe95f45039b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Iniciar Sesión.unity using Guid(4f7d43111222af2419fe95f45039b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208bf964d53bdb1368e02aeb63319f8f') in 0.006266 seconds
+  Import took 0.012403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Scenes/Iniciar Sesión.unity
+  artifactKey: Guid(4f7d43111222af2419fe95f45039b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Iniciar Sesión.unity using Guid(4f7d43111222af2419fe95f45039b5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208bf964d53bdb1368e02aeb63319f8f') in 0.002196 seconds
+  Import took 0.008120 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\gserg\OneDrive\Escritorio\TFG\Escape Room\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\gserg\OneDrive\Escritorio\TFG\Escape Room\Library\PackageCache\com.unity.xr.oculus@1.9.0\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.0/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 3648 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.4 MB.
+System memory in use after: 182.7 MB.
+
+Unloading 126 unused Assets to reduce memory usage. Loaded Objects now: 4336.
+Total: 3.178300 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.206100 ms MarkObjects: 2.446000 ms  DeleteObjects: 0.162800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
